@@ -26,6 +26,7 @@ insert rom\output_gfx.gba gfx_edit\start_menu_00245784.bin 245784
 insert rom\output_gfx.gba gfx_edit\title_00241384.bin256 241384
 insert rom\output_gfx.gba gfx_edit\save_menu_00286ce8.bin 286ce8
 insert rom\output_gfx.gba gfx_edit\pause_story_00261184.bin 261184
+insert rom\output_gfx.gba gfx_edit\kaiman_minigame_0019faa4.bin 19faa4
 
 for %%G in (gfx_map_patch\*.ips) do flips -a gfx_map_patch\%%~nG.ips rom\output_gfx.gba
 
